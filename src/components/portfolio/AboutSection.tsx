@@ -1,7 +1,22 @@
 const skills = {
-  devops: ['Docker', 'Kubernetes', 'CI/CD', 'Linux', 'Prometheus', 'Ansible', 'Terraform'],
-  development: ['JavaScript', 'TypeScript', 'Python', 'React', 'Node.js', 'Go', 'PHP'],
-  security: ['Pentest', 'OSINT', 'Kali Linux', 'Burp Suite', 'Nmap', 'Metasploit'],
+  devops: ['Docker', 'Kubernetes', 'CI/CD', 'Linux', 'Prometheus', 'Ansible', 'Terraform', 'AWS '],
+  development: ['JavaScript', 'TypeScript', 'Python', 'React', 'Node.js', 'Go', 'C', 'PHP'],
+  security: [
+    'OSINT',
+    'Kali Linux',
+    'Parrot OS',
+    'Burp Suite',
+    'Nmap',
+    'Metasploit',
+    'Nessus',
+    'OWASP ZAP',
+    'sqlmap',
+    'Wireshark',
+    'Gobuster',
+    'Hashcat',
+    'Snyk',
+    'Cloud Security (CSPM)',
+  ],
 };
 
 export function AboutSection() {
@@ -73,10 +88,9 @@ export function AboutSection() {
   "name": "Kerlon Amaral",
   "role": [
     "Eng. de Software Full Stack",
-    "Est. e entusiasta em websec",
-    "Malware Dev e Analysis"
+    "Est. e entusiasta em WebSec, Malware Dev e Analysis",
   ],
-  "focus": "Node.js CI/CD MySQL Jest Python C C++ Go Rust",
+  "focus": "Node.js CI/CD MySQL Jest Python C Go",
   "motto": "Como é perigoso libertar um povo que prefere a escravidão!"
 }
 `}</pre>
