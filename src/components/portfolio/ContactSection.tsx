@@ -9,8 +9,8 @@ export function ContactSection() {
         <div className="contact-content">
           <div className="contact-info slide-in-left">
             <p className="contact-intro">
-              Curte security research, CTFs ou projetos malucos? Bora trocar uma ideia — me chama aí
-              nos canais abaixo.
+              Entre em contato pelos canais abaixo — fico disponível para conversar, tirar dúvidas
+              ou trocar ideias sobre projetos e oportunidades.
             </p>
             <div className="contact-details">
               <div className="contact-item">
