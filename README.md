@@ -53,5 +53,3 @@ npm install
 ## Troubleshooting
 Common problems and solutions:
 - Performance issues: Use developer tools to identify bottlenecks
-
-### _The design and features of this portfolio were inspired by user [Yyax13](https://github.com/Yyax13), creator of the [zine](https://github.com/Yyax13/zine/) repository._
