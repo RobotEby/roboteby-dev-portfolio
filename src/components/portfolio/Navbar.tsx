@@ -22,7 +22,7 @@ export function Navbar() {
     const glitchEffect = () => {
       const el = document.querySelector('.glitch-text');
       if (!el) return;
-      const originalText = 'guest@hoWo';
+      const originalText = 'guest@robotEby';
       let iterations = 0;
       const interval = setInterval(() => {
         el.textContent = originalText
@@ -96,7 +96,7 @@ export function Navbar() {
           className="text-2xl font-bold text-foreground"
           onClick={(e) => handleNavClick(e, navLinks[0])}
         >
-          howo<span className="text-primary">sec</span>
+          robot<span className="text-primary">Eby</span>
         </Link>
 
         <nav className="hidden md:flex gap-8">
@@ -115,7 +115,7 @@ export function Navbar() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <span className="glitch-text text-sm font-mono">kali@howosec:~$</span>
+          <span className="glitch-text text-sm font-mono">kali@robotEby:~$</span>
         </div>
 
         <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-foreground p-2">
@@ -138,7 +138,7 @@ export function Navbar() {
             </Link>
           ))}
           <div className="pt-4 border-t border-primary/20 w-full text-left">
-            <span className="glitch-text text-sm font-mono">kali@howosec:~$</span>
+            <span className="glitch-text text-sm font-mono">kali@robotEby:~$</span>
           </div>
         </nav>
       )}

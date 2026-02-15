@@ -61,18 +61,18 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 my-6 text-sm font-mono">
           <span className="text-muted-foreground">
-            <span className="text-primary">$</span> ssh howosec:~$ whoami
+            <span className="text-primary">$</span> ssh robotEby:~$ whoami
           </span>
           <span className="hidden md:inline text-primary/30">│</span>
           <span className="inline-flex items-center gap-2 text-muted-foreground">
-            &copy; Copyright 2026 Made by howosec
+            &copy; Copyright 2026 Made by robotEby
           </span>
         </div>
 
         <div className="flex items-center justify-center gap-2 py-3 px-4 bg-black/50 rounded border border-primary/10">
           <Terminal className="w-3 h-3 text-primary/50" />
           <span className="text-[10px] md:text-xs font-mono text-muted-foreground/60">
-            <span className="text-primary/70">root@hoWo:~#</span>
+            <span className="text-primary/70">root@robotEby:~#</span>
             <span className="mx-2 hidden sm:inline">Port: 1337</span>
             <span className="mx-2">│</span>
             <span className="status-active">Status: ACTIVE</span>

@@ -45,7 +45,7 @@ export function HeroSection() {
           <div className="hero-text">
             <p className=" font-bold mb-6 leading-tight">
               <span className="colored-arrow">&gt;</span> whoami:
-              <span className="text-primary animate-blink"> howosec</span>
+              <span className="text-primary animate-blink"> robotEby</span>
             </p>
 
             <h1 className="hero-title flex items-center gap-2">
@@ -84,7 +84,7 @@ export function HeroSection() {
             <div className="avatar-container" ref={orbitRef}>
               <div className="sun-core">
                 <div className="avatar-placeholder">
-                  <img src="/images/profile.png" alt="freebsd-daemon" />
+                  <img src="/videos/3b319f8f64925aef6d4ded9d818eb637.gif" alt="Avatar" />
                 </div>
               </div>
 

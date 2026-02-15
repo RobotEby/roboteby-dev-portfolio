@@ -37,7 +37,7 @@ const LoadingOverlay = () => {
           </div>
         </div>
 
-        <p className="mt-6 text-primary glitch-text text-lg font-bold">hoWo@Security</p>
+        <p className="mt-6 text-primary glitch-text text-lg font-bold">robotEby@Security</p>
       </div>
     </div>
   );

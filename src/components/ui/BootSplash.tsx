@@ -73,7 +73,7 @@ const BootSplash = ({ onComplete }: BootSplashProps) => {
 
           <div className="w-full max-w-2xl px-6 font-mono text-sm">
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mb-6">
-              <h1 className="text-primary text-lg md:text-xl font-bold">HOWOSEC SYSTEM v0.1.0</h1>
+              <h1 className="text-primary text-lg md:text-xl font-bold">ROBOTEBY SYSTEM v0.1.0</h1>
               <div className="h-px bg-gradient-to-r from-primary via-primary/50 to-transparent mt-2" />
             </motion.div>
 
@@ -112,7 +112,7 @@ const BootSplash = ({ onComplete }: BootSplashProps) => {
                 animate={{ opacity: 1 }}
                 className="text-muted-foreground"
               >
-                <span className="text-primary">kali@howosec:~#</span>{' '}
+                <span className="text-primary">kali@robotEby:~#</span>{' '}
                 <span>./start_session.sh</span>
                 <span className="animate-blink ml-1">█</span>
               </motion.div>
